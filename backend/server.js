@@ -8,10 +8,12 @@ const routes = require('./routes');
 const app = express();
 
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || '*',
+  origin: true, // Mirror the request origin
+  credentials: true,
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
+app.options('*', cors(corsOptions)); // Enable pre-flight for all routes
 app.use(express.json());
 
 app.use('/api', routes);
