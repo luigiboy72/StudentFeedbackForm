@@ -121,18 +121,18 @@ npm start
 
 ## 📡 API Endpoints
 
-Auth Routes:
+Auth Routes:  
 POST /api/login
 
-Feedback Routes:
+Feedback Routes:  
 POST /api/feedback  
 GET /api/student/courses
 
-Admin Routes:
-GET /api/admin/faculty/:id
-GET /api/admin/course/:id
-GET /api/admin/participation
-GET /api/admin/faculties
+Admin Routes:  
+GET /api/admin/faculty/:id  
+GET /api/admin/course/:id  
+GET /api/admin/participation  
+GET /api/admin/faculties  
 GET /api/admin/courses
 
 ---
