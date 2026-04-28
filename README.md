@@ -106,6 +106,12 @@ Start frontend:
 cd client
 npm start
 ```
+---
+
+Screenshots:
+<img width="625" height="315" alt="2" src="https://github.com/user-attachments/assets/9d7a58ad-c30b-4ebb-8132-fc49e0a47e7f" />  
+<img width="625" height="315" alt="3" src="https://github.com/user-attachments/assets/509462e8-21f7-4784-8af3-3d00920eef3b" />  
+<img width="625" height="315" alt="4" src="https://github.com/user-attachments/assets/e85e7100-84c3-417b-81f0-3c1c50ca7787" />  
 
 ---
 
